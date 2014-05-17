@@ -34,7 +34,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_image_blur.png" translatesAutoresizingMaskIntoConstraints="NO" id="AmZ-6F-wfT" userLabel="Main background">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nyQ-Mu-d2Q">
                                 <rect key="frame" x="0.0" y="184" width="320" height="384"/>
@@ -126,7 +126,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3Xs-2k-vq1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WAG-bk-o3W">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMh-WX-9Eu">
@@ -184,9 +184,11 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.23921568627450979" green="0.25882352941176467" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="3qQ-1h-WZn"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="tab_icon_cog.png" id="3qQ-1h-WZn"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="emailTextField" destination="Wwk-rb-op0" id="dOV-XZ-eTC"/>
                         <outlet property="firstNameTextField" destination="aye-ae-6zN" id="gfr-hU-cSZ"/>
@@ -227,19 +229,22 @@
                         <viewControllerLayoutGuide type="bottom" id="Nai-ht-IDm"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fvN-Be-Vc4">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Some fancy stuff controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DcK-GJ-ty5">
-                                <rect key="frame" x="55" y="33" width="265" height="21"/>
+                                <rect key="frame" x="50" y="38" width="265" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.8666666666666667" green="0.88235294117647056" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.23921568627450979" green="0.25882352941176467" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Extras" id="Ada-Ge-aWr"/>
+                    <tabBarItem key="tabBarItem" title="Extras" image="tab_icon_lightbulb.png" id="Ada-Ge-aWr"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vh6-Vx-Rbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -253,6 +258,8 @@
         <image name="sign-bg-light.png" width="320" height="167"/>
         <image name="sign-blue-button.png" width="290" height="38"/>
         <image name="sign-text-input.png" width="290" height="35"/>
+        <image name="tab_icon_cog.png" width="26" height="26"/>
+        <image name="tab_icon_lightbulb.png" width="26" height="26"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

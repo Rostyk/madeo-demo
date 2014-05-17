@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5D0FCB481924E14600C8A50A"
-               BuildableName = "AuthorizationDemoForMadeo.app"
+               BuildableName = "AuthDemoMadeo.app"
                BlueprintName = "AuthorizationDemoForMadeo"
                ReferencedContainer = "container:AuthorizationDemoForMadeo.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D0FCB481924E14600C8A50A"
-            BuildableName = "AuthorizationDemoForMadeo.app"
+            BuildableName = "AuthDemoMadeo.app"
             BlueprintName = "AuthorizationDemoForMadeo"
             ReferencedContainer = "container:AuthorizationDemoForMadeo.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D0FCB481924E14600C8A50A"
-            BuildableName = "AuthorizationDemoForMadeo.app"
+            BuildableName = "AuthDemoMadeo.app"
             BlueprintName = "AuthorizationDemoForMadeo"
             ReferencedContainer = "container:AuthorizationDemoForMadeo.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D0FCB481924E14600C8A50A"
-            BuildableName = "AuthorizationDemoForMadeo.app"
+            BuildableName = "AuthDemoMadeo.app"
             BlueprintName = "AuthorizationDemoForMadeo"
             ReferencedContainer = "container:AuthorizationDemoForMadeo.xcodeproj">
          </BuildableReference>
